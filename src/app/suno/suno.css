@@ -1,0 +1,23 @@
+.suno-container {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  border-radius: 8px;
+  max-width: 500px;
+}
+
+input {
+  width: 100%;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  margin-bottom: 1rem;
+}
+
+.response {
+  background: #f9f9f9;
+  padding: 1rem;
+  border-radius: 6px;
+}

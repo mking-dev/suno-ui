@@ -1,0 +1,16 @@
+<div class="suno-container">
+  <h2>Suno API Demo</h2>
+
+  <label for="prompt">Enter a prompt:</label>
+  <input id="prompt" type="text" [(ngModel)]="prompt" placeholder="e.g. blues bass line" />
+
+  <button (click)="callSuno()">Generate</button>
+
+@if (response) {
+  <div class="response">
+    <h3>Response:</h3>
+    <pre>{{ response }}</pre>
+  </div>
+}
+
+</div>

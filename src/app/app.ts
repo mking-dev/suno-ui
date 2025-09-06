@@ -1,9 +1,9 @@
 import { Component, signal } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { Suno } from './suno/suno';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [Suno],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
